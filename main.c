@@ -32,7 +32,7 @@ static void _read(struct s1 *p) {
 	printf("p->ch : %c\n", p->ch);
 	printf("p->a->aa[0] : %d\n", *p->a->aa[0]);
 	printf("p->a->ab[0] : %d\n", *p->a->ab[0]);
-	printf("p->a->ab[1] : %d\n", *p->a->ab[1]);
+	printf("p->a->ab[1] : %d\n", (*p->a->ab)[1]);
 
 	return ;
 }
